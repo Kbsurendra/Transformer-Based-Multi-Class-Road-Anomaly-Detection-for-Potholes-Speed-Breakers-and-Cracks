@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Road Defect Detection</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚦 Road Defect Detection System</h1>
+
+    <div class="video-box">
+        <img id="videoStream" src="/video">
+    </div>
+
+    <div class="status">
+        <p id="statusText">🟢 Live Detection Running</p>
+    </div>
+
+    <div class="controls">
+        <button onclick="reloadStream()">🔄 Reload Stream</button>
+        <button onclick="fullscreen()">⛶ Fullscreen</button>
+    </div>
+</div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>
